@@ -1,0 +1,60 @@
+/**
+ * Messages
+ */
+
+#cvwp-video-query-messages{
+	
+}
+.has-message{
+	padding:10px 0px;
+}
+.cvwp-error{
+	color:red;
+	font-style:italic;
+}
+.cvwp-loading{
+	font-style:italic;
+	color:#494949;
+	background:url(../images/loading-small.gif) left center no-repeat;
+	padding-left: 20px!important;
+}
+
+div.cvwp h4{
+	border-bottom:1px #EEE solid;
+	padding-bottom:5px;
+	padding-left:5px;
+}
+
+.cvwp-video-player{
+	background:#000000 url(../images/loading.gif) center center no-repeat!important;
+}
+
+p.cvwp-note .description{
+	background:#FFFAD6;
+	padding:5px 10px;
+	width:auto;
+	margin:5px 0;
+	clear:both;
+}
+p.cvwp-warning .description{
+	background:#FFDEDD;
+	padding:5px 10px;
+	width:auto;
+	margin:5px 0;
+	clear:both;
+	color:red;
+}
+
+#cvwp-video-settings-table .description.no-config{
+	color:#999999;
+	font-size:.9em;
+}
+
+#cvwp-video-settings-table .description.no-config strong{
+	color:red;
+	display:block;
+}
+
+.cvwp-video-url-output{
+	word-break: break-all;	
+}

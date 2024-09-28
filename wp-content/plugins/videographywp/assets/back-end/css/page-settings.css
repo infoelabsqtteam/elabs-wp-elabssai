@@ -1,0 +1,124 @@
+a:hover, a:active, a:focus{
+   outline: 0!important;
+}
+
+.ui-tabs,
+.cvwp-tabs{
+	width:100%;
+	float:left;
+	margin-top:20px;
+	border-top:1px #CCC solid;
+	display:block;
+	position:relative;
+}
+	.ui-tabs-nav,
+	.cvwp-tab-labels{
+		width:200px;
+		position:absolute;
+		top:0px;
+		left:0px;
+		list-style-type:none;
+		margin:0px;
+		z-index:100;
+		border-right:2px #CCC solid;
+		padding-bottom:50px;
+	}
+	.ui-tabs-nav li,
+	.cvwp-tab-labels li{
+		border:1px solid #CCC;
+		border-right:none;
+		margin:0px;
+		padding:0px;
+		font-size:1.2em;
+		margin-bottom:2px;		
+	}
+	.ui-tabs-nav li:first-child,
+	.cvwp-tab-labels li:first-child{
+		border-top:none;
+	}
+		.ui-tabs-nav li a,
+		.ui-tabs-nav li a:HOVER,
+		.cvwp-tab-labels li a,
+		.cvwp-tab-labels li a:hover{
+			color:#999;
+			text-decoration:none;
+			display:block;
+			padding:11px 30px 5px 11px;
+			background:#F5F5F5;	
+			margin-right:-2px!important;
+			border-right:2px #CCC solid;		
+		}		
+		.ui-tabs-nav .ui-tabs-active a,
+		.cvwp-tab-labels .ui-tabs-active a{
+			color:#333!important;	
+			border-right:2px #F1F1F1 solid!important;			
+			background:none!important;			
+		}
+		
+		
+	.ui-tabs .ui-tabs-panel,
+	.cvwp-tabs .cvwp-panel
+	{
+		padding-left:20px;
+		padding-top:0px;
+		margin-left:200px;
+		z-index:1;
+	}
+	
+.cvwp-tabs h4{
+	width:100%;
+	border-bottom:1px #CCC solid;
+	padding-bottom:15px;
+	font-style:italic;	
+	font-size:1.4em;
+	font-weight:normal;
+}
+	.cvwp-tabs h4 i{
+		font-size:1.4em;
+		width:1.4em;
+	}
+	.cvwp-tabs label.small{
+		font-size:.9em;		
+	}
+	
+.cvwp-warning{
+	color:red;
+	font-style:italic;
+}
+
+.cvwp-notice{
+	background-color:#FFFDF2; 
+	padding:10px 20px;
+	border: 1px #F2EFD0 solid;
+}
+
+#global_options tr.toggle th{
+	text-align:right;
+	color:#5B5B5B;
+	font-style:italic;
+}
+
+#cvwp-test-yt-key-response{
+	margin-top:.5em;
+}
+
+#cvwp-test-yt-key-response.loading{
+	color:#999;
+	font-style:italic;
+}
+
+#cvwp-test-yt-key-response.success{
+	color:green;
+}
+
+#cvwp-test-yt-key-response.errorMessage{
+	color:red;
+}
+
+#cvwp-test-yt-key-response.errorMessage p{
+	display:block;
+	margin-top:.5em;
+	border-top:1px #ccc solid;
+	padding-top:.5em;
+	color:#000;
+}

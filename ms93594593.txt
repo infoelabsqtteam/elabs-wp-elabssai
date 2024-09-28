@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "elabss.ai",
+  "Id": "f1baa33b-d495-407d-9961-901564d87b90"
+}
